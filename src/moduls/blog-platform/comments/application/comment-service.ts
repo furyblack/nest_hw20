@@ -53,9 +53,6 @@ export class CommentService {
       throw err;
     }
   }
-  // async getPostById(id: string, userId?: string): Promise<PostViewDto | null> {
-  //   return this.commentsRepository.findById(id, userId);
-  // }
 
   async getCommentById(
     commentId: string,
